@@ -1,25 +1,34 @@
+:root {
+    --cor-de-fundo: #E0F9E9;
+    --cor-de-texto: #ffffff;
+    --principais: #1C6434;
+    --cor:#010631;
+}
+
+body{
+    background-color: #E0F9E9;
+    
+}
+
 img{
     width: 20%;
     padding: 10px;
 }
 
 header{ 
-    background-color:#1C6434;
+    background-color: var(--principais);
     display:flex;
 }
 
 section {
     display: flex;
-    background-color: white;
-    color: #1C6434;
+    background-color: var(--cor-de-fundo);
+    color: var(--principais);
     margin: 10px 0;
     padding: 10px 20px;
     width: 5%;
 }
 
-footer{
-    background-color: #1C6434;
-}
 div{
     padding: 30px;
 }
